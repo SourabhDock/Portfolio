@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Scoutie+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import "tailwindcss";
+
+
+@theme {
+    --color-home-background: #FDF8F1;
+
+
+
+    --color-Hello-title: #BED9F8;
+    --color-view-my-work: #031D3F;
+    --color-showcase-bar: #031D3B;
+    --color-showcase-bar-text: #485068;
+    --color-About-me-title: #6B5BEC;
+    --color-About-me-box-bg: #F5F7FE;
+    --color-title: #EBE3FB;
+
+}
+
+
+@theme {
+  --font-nunito: "Nunito", sans-serif;
+  --font-Inter:"Inter",sans-serif;
+  --font-Roboto:"Roboto",sans-serif;
+  --font-Scoutieu:"Scoutie",sans-serif;
+  --font-Comfortaa:"Comfortaa";
+}
+
