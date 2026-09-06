@@ -26,7 +26,7 @@ const ProjectSection = () => {
   return (
 
 
-    <div id='project' className='w-full flex items-center flex-col gap-4  mb-20 p-20 bg-[#FEEFE0]'>
+    <div id='project' className='w-full flex items-center flex-col gap-4  p-20 bg-[#FEEFE0]'>
       <div className='flex flex-col items-center justify-center gap-3'>
             <div className='bg-[#6E5AEE] py-0.5 px-5 text-xl text-About-me-box-bg text-center font-bold font-nunito w-max rounded-2xl'>My Projects </div>
             <h1 className='text-6xl font-bold font-Inter text-[#042044]'>Featured Work </h1>

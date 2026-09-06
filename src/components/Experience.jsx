@@ -65,7 +65,7 @@ function Experience() {
 
 
     return (
-        <section id='Experience' className='w-[90%] min-h-125 bg-blue-400  grid grid-cols-5  mb-20 rounded-2xl box-border'>
+        <section id='Experience' className='w-full min-h-125  p-20  grid grid-cols-5   rounded-2xl box-border'>
             <div className='bg-[#F1EBFB] col-span-1 h-full py-16 rounded-tl-2xl rounded-bl-2xl flex flex-col  items-center justify-between'>
                 <div className='bg-[#DDDCFD]  size-25 p-0 flex items-center justify-center rounded-full  ' >
                     <FaBriefcase size={40} color='#705CF5' />

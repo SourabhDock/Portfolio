@@ -5,7 +5,7 @@ import { BsBalloonHeartFill } from "react-icons/bs";
 
 function Footer() {
     return (
-        <div className='bg-[#021D3D] h-90 w-full box-border'>
+        <div className='bg-[#021D3D] h-80 w-full box-border'>
             <div className=''>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 220">
                     <path fill="#fff" fillOpacity="1"

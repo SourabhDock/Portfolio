@@ -66,7 +66,7 @@ const Skills = () => {
 
 
     return (
-        <div id='Skills' className='flex flex-col items-center justify-center mt-20'>
+        <div id='Skills' className='flex flex-col items-center justify-center p-20 '>
             <div className='flex flex-col items-center justify-center gap-3'>
             <div className='bg-[#6E5AEE] py-0.5 px-5 text-xl text-About-me-box-bg text-center font-bold font-nunito w-max rounded-2xl'>My Skills </div>
             <h1 className='text-6xl font-bold font-Inter text-[#042044]'>Technologies I Work With </h1>

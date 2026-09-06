@@ -16,7 +16,7 @@ const Navbar = () => {
 
       <div className='flex items-center gap-1 text-2xl font-bold'><img className='size-10' src={logo} alt="" /> OURABH</div>
       <div className=' gap-4 hidden sm:flex'> <a href='#'  >Home</a>
-        <a href='#contact'  >About</a>
+        <a href='#About'  >About</a>
         <a href='#Skills'  >Skills</a>
         <a href='#Experience'  >Experience</a>
         <a href='#contact'  >Contant us</a>

@@ -23,7 +23,8 @@ function Contact() {
     })
 
     return (
-        <div id='contact' className='grid grid-cols-2 gap-14 bg-Hello-title w-[90%] h-1/2 px-20 py-9 mt-15 rounded-2xl box-border'>
+        <section  id='contact' className='w-full flex items-center justify-center py-20'>
+        <div  className='grid grid-cols-2 gap-14 bg-Hello-title w-[90%] h-1/2  p-20 rounded-2xl box-border'>
             <div  className='col-span-1'>
                 <div className='mb-10 ml-4 flex flex-col gap-5'>
                     <span className='px-5 py-1 mb-1 max-w-fit bg-[#7D57F3] rounded-4xl text-center text-About-me-box-bg font-semibold  font-Comfortaa' >Get In Touch</span>
@@ -51,6 +52,7 @@ function Contact() {
                 </div>
             </div>
         </div>
+        </section>
     )
 }
 

@@ -27,7 +27,7 @@ const AboutMe = () => {
 
 
     return (
-        <div id='About' className='w-screen h-3/6 flex  justify-evenly mt-20'>
+        <div id='About' className='w-screen h-3/6 flex py-20 justify-evenly '>
             <div className='w-[40%]'>
                 <h2 className='  font-Scoutieu text-6xl font-bold'>Turning  <span className='flex gap-10' > Ideas Into Code <BsCodeSlash className='relative bottom-2' color='#8463EF' /></span> </h2>
 
