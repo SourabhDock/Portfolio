@@ -1,7 +1,7 @@
 import React from 'react'
 import ProjectCard from '../components/ProjectCard'
 import portfolio from '../assets/Projects/portfolio.png'
-import Tunewave from '../assets/Projects/Tunewave.png'
+import Tunewave from '../assets/Projects/TuneWave.png'
 
 
 const ProjectSection = () => {

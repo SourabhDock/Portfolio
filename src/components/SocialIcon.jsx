@@ -1,7 +1,7 @@
 import React from 'react'
 import Github from '../assets/SocialIcon/Github.png'
 import LinkedIn from '../assets/SocialIcon/LinkedIn.png'
-import x from '../assets/SocialIcon/x.png'
+import x from '../assets/SocialIcon/X.png'
 import Insta from '../assets/SocialIcon/Insta.png'
 
 const SocialIcon = () => {
