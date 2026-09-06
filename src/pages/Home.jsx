@@ -9,8 +9,8 @@ import Skills from '../components/Skills'
 import Support from '../components/Support'
 import ProjectSection from './ProjectSection'
 import Experience from '../components/Experience'
-import Contact from '../components/Contact.jsx'
-import Footer from '../components/Footer'
+import Contact from '../components/Contactus.jsx'
+import Footer from '../components/Footer.jsx'
 
 const Home = () => {
 
