@@ -66,15 +66,15 @@ const Skills = () => {
 
 
     return (
-        <div id='Skills' className='flex flex-col items-center justify-center p-20 '>
+        <div id='Skills' className='flex flex-col items-center justify-center p-4 sm:p-20 '>
             <div className='flex flex-col items-center justify-center gap-3'>
             <div className='bg-[#6E5AEE] py-0.5 px-5 text-xl text-About-me-box-bg text-center font-bold font-nunito w-max rounded-2xl'>My Skills </div>
-            <h1 className='text-6xl font-bold font-Inter text-[#042044]'>Technologies I Work With </h1>
-            <p className='text-[#686c74] text-xl font-Inter'>A Combination of Technologies that I used to build Web Applications.</p>
+            <h1 className='text-2xl sm:text-6xl font-bold font-Inter text-[#042044]'>Technologies I Work With </h1>
+            <p className='text-[#686c74] text-sm sm:text-xl text-center font-Inter'>A Combination of Technologies that I used to build Web Applications.</p>
 
            </div>
 
-            <div className='mt-4   flex items-center justify-center  gap-2.5'>
+            <div className='mt-4  flex flex-wrap items-center justify-center  gap-2.5'>
                 <label onClick={() => setDomain("All")} className="px-4 py-1 text-[#A7A8B1]   has-checked:text-white has-checked:bg-About-me-title has-checked:rounded-2xl">
                     <input type="radio" name="skill-option" defaultChecked  value="All" className='sr-only' />
                     <span>All</span>
@@ -100,7 +100,7 @@ const Skills = () => {
             {/* skill-boxes-container */}
             <div className='mt-10'>
 
-                <ul key={skillset.key} className='grid grid-cols-6 gap-x-6 gap-y-2 place-content-center'>{skillrenderlist}</ul>
+                <ul key={skillset.key} className='grid grid-cols-2 sm:grid-cols-6 gap-x-6 gap-y-2 place-content-center'>{skillrenderlist}</ul>
 
             </div>
 

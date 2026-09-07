@@ -25,7 +25,7 @@ function Experience() {
 
             <div
                 key={index}
-                className="relative grid grid-cols-[40px_140px_1fr] gap-x-5 pb-0"
+                className="relative grid grid-cols-[40px_80px_2fr] sm:grid-cols-[40px_140px_1fr] gap-x-3 pb-0 pr-3 "
             >
                 {/* Timeline */}
                 <div className="relative flex justify-center">
@@ -45,15 +45,15 @@ function Experience() {
 
                 {/* Experience Content */}
                 <div>
-                    <h3 className="text-[17px] font-bold text-[#152B55]">
+                    <h3 className="text-[20px] font-bold text-[#152B55]">
                         {experience.Role}
                     </h3>
 
-                    <p className="mt-1 text-[16px] font-semibold text-[#152B55]">
+                    <p className="mt-1 text-[18px] font-semibold text-[#152B55]">
                         {experience.company}
                     </p>
 
-                    <p className="mt-4 mb-4 max-w-2xl text-[14px] leading-6 text-gray-600">
+                    <p className="mt-4 mb-4 max-w-2xl text-[17px] leading-6 text-gray-600">
                         {experience.desc}
                     </p>
                 </div>
@@ -65,12 +65,25 @@ function Experience() {
 
 
     return (
-        <section id='Experience' className='w-full min-h-125  p-20  grid grid-cols-5   rounded-2xl box-border'>
-            <div className='bg-[#F1EBFB] col-span-1 h-full py-16 rounded-tl-2xl rounded-bl-2xl flex flex-col  items-center justify-between'>
-                <div className='bg-[#DDDCFD]  size-25 p-0 flex items-center justify-center rounded-full  ' >
-                    <FaBriefcase size={40} color='#705CF5' />
+        <section id='Experience' className='w-full  p-4 pt-20  sm:p-20  grid grid-cols-1   rounded-2xl box-border'>
+            <div className='bg-[#F1EBFB] col-span-1 h-full  sm:pt-20 sm:pl-20 p-15 gap-2 sm:gap-18  mb-10 flex  items-center rounded-tl-2xl rounded-tr-2xl'>
+
+                <div className='bg-[#DDDCFD] size-22 sm:size-28 p-0 flex items-center justify-center rounded-full  ' >
+                    <FaBriefcase size={35} sm:size={40} color='#705CF5' />
                 </div>
+
                 <div>
+                    <div className='sm:mb-10 ml-4 flex flex-col gap-3 sm:gap-5'>
+                        <span className='px-4 py-2 mb-1 max-w-fit  sm:text-xl bg-[#7D57F3] rounded-4xl text-About-me-box-bg font-Comfortaa' >Experience</span>
+                        <h2 className='font-Roboto text-xl sm:text-3xl font-semibold text-view-my-work' >My Journey</h2>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div className='bg-[#F1EBFB] relative col-span-4 flex gap-10 sm:px-20 sm:pb-20 pb-5 h-full rounded-bl-2xl rounded-br-2xl'>
+                
+                <div className='hidden relative top-40 sm:block'>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 148 170" width="148" height="170">
                         <g fill="none" stroke="#50638B" strokeWidth="3.2"
                             strokeLinecap="round" strokeLinejoin="round">
@@ -90,17 +103,8 @@ function Experience() {
                     </svg>
 
                 </div>
-            </div>
 
-            <div className='bg-[#F1EBFB] col-span-4 flex flex-col py-15 h-full rounded-tr-2xl rounded-br-2xl'>
-                <div>
-                    <div className='mb-10 ml-4 flex flex-col gap-5'>
-                        <span className='px-4 py-2 mb-1 max-w-fit bg-[#7D57F3] rounded-4xl text-About-me-box-bg font-Comfortaa' >Experience</span>
-                        <h2 className='font-Roboto text-3xl font-semibold text-view-my-work' >My Journey</h2>
-                    </div>
-                </div>
-
-                <div>
+                <div className=''>
                     {experiencelist}
                 </div>
             </div>

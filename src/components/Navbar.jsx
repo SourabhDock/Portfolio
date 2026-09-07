@@ -12,10 +12,10 @@ const Navbar = () => {
   }
 
   return (
-    <div className='w-screen h-20 flex items-center justify-between sm:px-20'>
+    <div id='top' className='w-screen h-20 flex items-center justify-between sm:px-20 px-8'>
 
-      <div className='flex items-center gap-1 text-2xl font-bold'><img className='size-10' src={logo} alt="" /> OURABH</div>
-      <div className=' gap-4 hidden sm:flex'> <a href='#'  >Home</a>
+      <div className='flex items-center gap-1 text-2xl font-bold'><img className='size-10' src={logo} alt="" />OURABH</div>
+      <div className=' gap-4 hidden  lg:flex'> <a href='#'  >Home</a>
         <a href='#About'  >About</a>
         <a href='#Skills'  >Skills</a>
         <a href='#Experience'  >Experience</a>

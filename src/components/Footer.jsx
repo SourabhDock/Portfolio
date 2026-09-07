@@ -1,12 +1,14 @@
 import React from 'react'
 import { BsBalloonHeartFill } from "react-icons/bs";
+import { FaArrowUp } from "react-icons/fa6";
+
 
 
 
 function Footer() {
     return (
-        <div className='bg-[#021D3D] h-80 w-full box-border'>
-            <div className=''>
+        <div className=' bg-[#021D3D] sm:h-80 w-full   box-border'>
+            <div className='w-full'>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 220">
                     <path fill="#fff" fillOpacity="1"
                         d="M0,192L48,181.3C96,171,192,149,288,149.3C384,
@@ -17,8 +19,8 @@ function Footer() {
                     </path></svg>
             </div>
 
-            <div className='flex  relative justify-between pt-10 px-15 text-About-me-box-bg'>
-                <p>@2026 SOURABH ALL Right are Reserved.</p>
+            <div className='flex sm:flex-row flex-col gap-4 relative justify-between p-10 sm:px-15 text-About-me-box-bg'>
+                <p className='mt-1'>@2026 SOURABH ALL Right are Reserved.</p>
                 <div className=' gap-4 hidden sm:flex'> <a href='#'  >Home</a>
                     <a href='#contact'  >About</a>
                     <a href='#Skills'  >Skills</a>
@@ -27,6 +29,8 @@ function Footer() {
                 </div>
                 <p className='flex'>Made With  <BsBalloonHeartFill size={20} color='red' /> using React and Tailwind Css. </p>
             </div>
+            
+            <a href='#top' className='fixed right-2.5 top-[90%] opacity-50 hover:opacity-100  size-12 bg-white rounded-full flex justify-center items-center '><FaArrowUp size={30} color='black' /></a>
 
         </div>
     )

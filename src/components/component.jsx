@@ -22,48 +22,42 @@ export const Skill = ({ Link, alt, text }) => {
     )
 }
 
+const stats = [
+  { number: "10+", label: "Projects Completed" },
+  { number: "2+", label: "Years Learning" },
+  { number: "100%", label: "Dedication" },
+  { number: "∞", label: "Willingness to Learn" },
+];
+
+
+
 export const Show = () => {
 
     return (
-        <div className='w-screen flex justify-center'>
-            <div className='bg-[#052241] flex items-center justify-evenly w-[90%] max-w-[90%] h-30  rounded-xl'>
-                <div className='border-1-0'>
-                    <div className='font-Roboto text-2xl text-white'>10+</div>
-                    <h3 className='text-sm text-white'>Projects</h3>
+       <section className="w-[90%] bg-[#06244a] px-6 py-6 rounded-2xl">
+      <div className="mx-auto grid max-w-7xl grid-cols-2 md:grid-cols-4">
 
-                </div>
+        {stats.map((item, index) => (
+          <div
+            key={item.label}
+            className={`flex flex-col items-center justify-center py-3
+              ${index !== 0 ? "md:border-l md:border-white/20" : ""}
+              ${index === 2 ? "border-t border-white/20 md:border-t-0" : ""}
+              ${index === 3 ? "border-t border-white/20 md:border-t-0" : ""}
+            `}
+          >
+            <span className="text-3xl font-bold text-white md:text-4xl">
+              {item.number}
+            </span>
 
-                <div className="w-px h-20 bg-gray-300"></div>
+            <span className="mt-2 text-sm font-medium text-white/80 md:text-base">
+              {item.label}
+            </span>
+          </div>
+        ))}
 
-                <div>
-                    <div className='font-Roboto text-2xl text-white'>+</div>
-                    <h3 className='text-sm text-white'>Projects</h3>
-
-                </div>
-                <div className="w-px h-20 bg-gray-300"></div>
-                <div>
-                    <div className='font-Roboto text-2xl text-white'>1+ Year</div>
-                    <h3 className='text-sm text-white'>Experience</h3>
-
-                </div>
-                <div className="w-px h-20 bg-gray-300"></div>
-                <div>
-                    <div className='font-Roboto h size-9 text-white'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 50">
-                        <path
-                            d="M25 10C10 10 10 40 25 40C35 40 42 25 50 25C58 25 65 40 75 40C90 40 90 10 75 10C65 10 58 25 50 25C42 25 35 10 25 10Z"
-                            fill="none"
-                            stroke="#FFFFFF"
-                            strokeWidth="6"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                        />
-                    </svg></div>
-                    <h3 className='text-sm text-white'>Projects</h3>
-
-                </div>
-
-            </div>
-        </div>
+      </div>
+    </section>
     )
 }
 
