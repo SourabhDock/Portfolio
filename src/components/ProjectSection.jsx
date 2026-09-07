@@ -1,5 +1,5 @@
 import React from 'react'
-import ProjectCard from '../components/ProjectCard'
+import ProjectCard from './ProjectCard'
 import portfolio from '../assets/Projects/portfolio.png'
 import Tunewave from '../assets/Projects/TuneWave.png'
 

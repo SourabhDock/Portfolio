@@ -15,7 +15,7 @@ import Git from '../assets/skillIcon/Git.png'
 import Github from '../assets/skillIcon/Github.png'
 import VsCode from '../assets/skillIcon/VsCode.png'
 import Intellij from '../assets/skillIcon/Intellij.png'
-import Postman from '../assets/skillIcon/Postman.png'
+import Postman from '../assets/skillIcon/postman.png'
 
 
 const Skills = () => {
